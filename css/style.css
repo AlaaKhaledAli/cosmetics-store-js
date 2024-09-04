@@ -68,7 +68,7 @@ nav ul li:hover::before{
 }
 
 .hero {
-    background-image: url(./images/hero.jpg);
+    background-image: url(../images/hero.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -183,7 +183,7 @@ nav ul li:hover::before{
 }
 
 .card:hover .card-img::after {
-    content: url(./images/cart.svg);
+    content: url(../images/cart.svg);
     height: 30px;
     width: 30px;
     /* text-align: center; */
@@ -209,7 +209,7 @@ nav ul li:hover::before{
     margin: 10px 5px;
 }
 .hero-second{
-    background-image: url(./images/bg-03.jpg);
+    background-image: url(../images/bg-03.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;

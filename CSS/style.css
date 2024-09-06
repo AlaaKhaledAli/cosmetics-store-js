@@ -1,0 +1,74 @@
+body {
+    height: 100dvh;
+    display: grid;
+    place-content: center;
+  }
+p{
+    font-size: 10px;
+}
+
+input{
+    width: 150px;
+    border: white;
+    border-radius: 6px;
+}
+#p,h3{
+    margin-left: 35px;
+}
+h3{
+    margin-left: 50px;
+}
+#p{
+    font-size: 10px;
+}
+button{
+    margin-top:7px; 
+    margin-left: 50px;
+    background-color: black;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 12px;
+}
+
+.box{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    background-color: rgb(133, 205, 26);
+    width: 275px;
+    height: 319px;
+    border-bottom-left-radius: 139px;
+    border-top-left-radius: 105px;
+    transition: all 0.5s ease-in-out;
+}
+.header{
+    color: white;
+    margin-left:90px;
+    margin-top: 90px;
+    line-height: 0;
+}
+.pragraph{
+    color: white;
+    margin-left: 64px;
+}
+.button{
+    margin-left: 108px;
+}
+.parrent{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 300px;
+    padding: 10px 40px;
+    border-radius: 20px;
+    background-color: greenyellow;
+}
+span {
+    font-size: 7px;
+    color: red;
+    margin-right: 40px;
+}
